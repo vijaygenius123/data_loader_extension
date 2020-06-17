@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Data Loader",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://localhost:5500/*"
+            ],
+            "js": [
+                "jquery.min.js",
+                "content.js"
+            ]
+        }
+    ]
+}
