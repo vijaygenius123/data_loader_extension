@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Data Loader",
-    "version": "0.2",
+    "version": "0.3",
     "content_scripts": [
         {
             "matches": [
@@ -15,5 +15,8 @@
     ],
     "permissions": [
         "activeTab"
-    ]
+    ],
+    "page_action": {
+        "default_popup": "popup.html"
+    }
 }
